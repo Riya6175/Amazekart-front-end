@@ -71,12 +71,12 @@ export default function HomePage(props) {
           />
           <RealProduct
             id="90829332"
-            image="./images/vivo.PNG"
+            image="./images/vivo.png"
             link="/vivo"
           />
           <RealProduct
             id="90829332"
-            image="./images/oppo.PNG"
+            image="./images/oppo.png"
             link="oppo"
           />    
 
