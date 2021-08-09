@@ -1,0 +1,297 @@
+.menuHeader{
+    width:100%;
+    height: 40px;
+    background: #232f3e;
+    border-bottom: 1px solid #000;
+    box-shadow: 0 2px 2px -2px;
+}
+
+.menuHeader  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.menuHeader > ul {
+    display: flex;
+    margin: 0 50px;
+    position: relative;
+}
+
+
+.menuHeader  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.menuHeader > ul {
+    display: flex;
+    margin: 0 50px;
+    position: relative;
+}
+.menuHeader > ul > li > button{
+    
+    display: block;
+    line-height: 40px;
+    cursor: pointer;
+    padding: 0 20px;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    background: transparent;
+    color:#fff;
+    height: 40px;
+    border: none;
+
+}
+.menuHeader > ul > li > button:hover{
+    border: 2px solid #fff;
+}
+.fake-list > li{
+  float: left;
+  padding: 10px 20px
+}
+.fake-list > li:hover{
+  border: 2px solid #fff;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-fake {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn-list {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border: 1px solid #c1c1c1;
+	border-radius: 4px;
+  z-index: 10;
+  width: 100%;
+}
+
+.dropbtn-list img {
+  color: rgb(194, 171, 171);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  z-index: 1000;
+  
+}
+
+
+.dropbtn-list a:hover {background-color: #ddd;}
+
+.dropdown-fake:hover .dropbtn-list {display: block;}
+
+/*side nav*/
+.sidenav{
+    max-width:380px;
+    overflow:hidden;
+    width:85%;
+    height:100%;
+    position: fixed;
+    z-index:200;
+    top:0;
+    left:0;
+    background: #fff;
+    transform-origin: left center;
+    transform: translateX(-420px);
+}
+
+.overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: 150;
+    background-color: rgba(0,0,0,0.7)
+}
+
+.closeBtn{
+    
+    top:0;
+    left:0;
+    margin-left:390px;
+    color:black;
+    font-size: 50px;
+    cursor: pointer;
+    transform:translateY(-100px);
+    z-index:75;
+}
+.sideNavContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+.sidenavHeader {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(35, 47, 62);
+    padding: 10px 0px 10px 30px;
+    font-size: 23px;
+}
+
+
+.sidenavContainer hr {
+    width: 85%;
+  }
+
+  .paddingDiv {
+    transition: margin-bottom 0.3s;
+  }
+  .sidenavHeader {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(35, 47, 62);
+    padding: 10px 0px 10px 30px;
+    font-size: 23px;
+  }
+  .sidenavContent {
+    padding: 15px 0px 15px 25px;
+  }
+  .sidenavContentHeader {
+    margin-top: 5px;
+    padding: 15px 0px 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .sidenavContent:hover {
+    background-color: #eaeded;
+  }
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: black;
+  }
+  hr {
+    height: 1px;
+    border: 0;
+    color: gray;
+    background-color: gray;
+    margin: 15px auto 10px auto;
+  }
+  .sidenavRow {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    padding: 15px 25px 15px 25px;
+    cursor: pointer;
+  }
+  .sidenavRow:hover {
+    background-color: #eaeded;
+  }
+  .sidenavRow .i {
+    color: #8e9090;
+  }
+  .sidenavRow:hover .i{
+    color: #111111;
+  }
+
+  .sidenavRowDropdown {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+    cursor: pointer;
+  }
+  
+  .sidenavRowDropdown:hover {
+    background-color: #eaeded;
+  }
+  
+  .sidenavRowDropdown i {
+    color: #8e9090;
+    margin-left: 10px;
+  }
+  
+  .sidenavRowDropdown:hover i {
+    color: #111111;
+  }
+  .sub-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: white;
+    transform: translateX(420px);
+  }
+  .sub-header {
+    margin-top: 5px;
+    padding: 15px 0px 15px 25px;
+    font-weight: bold;
+  }
+  .sub-header:hover {
+    background-color: #eaeded;
+    cursor: pointer;
+  }
+  .sub-header i {
+    color: #8e9090;
+  }
+  
+@keyframes moveSideBar {
+    0%{
+        transofrm : translatX(-420px);
+        z-index:100;
+    }
+    100%{
+        transform: translateX(-0px);
+    }
+}
+
+@keyframes show {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes dropDown {
+    0% {
+      opacity: 0;
+      transform: scaleY(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+  }
+  /*Move sub container*/
+  @keyframes moveSubContainer {
+    0% {
+      transform: translateX(420px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  /*Move main container in relation to sub container*/
+  @keyframes moveMainContainer {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-420px);
+    }
+  }

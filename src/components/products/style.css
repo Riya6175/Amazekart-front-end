@@ -1,0 +1,15 @@
+.vr {
+    border-right: 6px solid green;
+    height: 100vh;
+  }
+
+  ul {
+      list-style: none;
+  }
+
+  .sidebar{
+      width: 15%;
+    border-right-style: solid;
+    border-right-color: #dddddd;
+    border-right-width: 3px;
+  }

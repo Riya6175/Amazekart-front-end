@@ -1,0 +1,59 @@
+
+.cardHeader{
+    text-align:center;
+    font-size: 2rem;
+    margin-top: 2%;
+    font-family: Roboto;
+    
+}
+/* 
+.productContainer{
+    width: 200px;
+    margin: 0 10px;
+}
+.productContainer .productImgContainer{
+    width: 150px;
+    height: 10vh;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px auto;
+}
+.productContainer .productImgContainer img{
+    max-width: 100%;
+    max-height: 20%;
+    object-fit: contain;
+}
+.productInfo{
+    text-align: center;
+    font-size: 12px;
+}
+.productPrice{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+} */
+.details{
+    border: 1px solid #cecece;
+    background: none;
+
+}
+.rec.rec-arrow {
+    border: none;
+    background: none;
+    box-shadow: none;
+    margin: 0 2%;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover .rec.rec-arrow:active .rec.rec-arrow:focus {
+    background-color: #000;
+    
+
+}
+
+button.rec-dot{
+    background-color: none;
+    box-shadow: none;
+    display: none;
+  }
+  
+  

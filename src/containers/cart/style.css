@@ -1,0 +1,18 @@
+.display-product{
+    display: flex;
+}
+.display-product > img{
+    height: 150px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.cartTitle{
+    display: flex;
+    margin-left: 4%;
+}
+.cartContainer{
+    display: flex;
+    max-width: 1260px;
+    margin: 15px auto;
+    justify-content: space-between;
+}
